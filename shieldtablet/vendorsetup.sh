@@ -1,0 +1,2 @@
+add_lunch_combo aosp_shieldtablet-eng
+add_lunch_combo aosp_shieldtablet-userdebug

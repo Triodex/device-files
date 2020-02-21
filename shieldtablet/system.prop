@@ -1,0 +1,35 @@
+ro.opengles.version = 196610
+ro.sf.lcd_density=320
+
+persist.tegra.didim.enable = 1
+persist.tegra.didim.video = 5
+persist.tegra.didim.normal = 3
+persist.tegra.compositor=glcomposer
+ro.zygote.disable_gl_preload=true
+
+ro.hardware.sensors=default.api_v1.3.mpl520.nvs
+
+# usb vendor and product ID definition
+ro.nv.usb.vid=0955
+ro.nv.usb.pid.mtp=CF07
+ro.nv.usb.pid.mtp.adb=CF05
+ro.nv.usb.pid.rndis=CF08
+ro.nv.usb.pid.rndis.acm.adb=CF08
+ro.nv.usb.pid.rndis.adb=CF08
+ro.nv.usb.pid.ptp=CF07
+ro.nv.usb.pid.ptp.adb=CF05
+
+# Trim properties
+ro.sys.fw.use_trim_settings=true
+ro.sys.fw.empty_app_percent=50
+ro.sys.fw.trim_empty_percent=100
+ro.sys.fw.trim_cache_percent=100
+ro.sys.fw.trim_enable_memory=2147483648
+
+# Audio
+ro.af.client_heap_size_kbyte=8192
+ro.audio.usb.period_us=5000
+
+ro.bt.bdaddr_path=/mnt/factory/bluetooth/bt_mac.txt
+
+persist.media.treble_omx=false
